@@ -52,6 +52,7 @@ def load_data():
 
 df = load_data()
 
+
 if df is not None:
     # --- Sidebar Summary ---
     st.sidebar.header("Audit Summary")
