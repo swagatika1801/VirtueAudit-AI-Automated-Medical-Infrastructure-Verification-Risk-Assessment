@@ -5,10 +5,26 @@ import plotly.express as px
 st.set_page_config(page_title="Virtue Audit Portal", layout="wide", page_icon="🏥")
 
 # Custom Styling
+# Custom Styling (Replace your existing st.markdown style section)
 st.markdown("""
     <style>
     .main { background-color: #f5f7f9; }
-    .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    /* Metric Card styling ko improve kiya hai */
+    [data-testid="stMetricValue"] {
+        color: #1E88E5 !important; /* Numbers ab blue dikhenge */
+        font-size: 32px !important;
+    }
+    [data-testid="stMetricLabel"] {
+        color: #555 !important; /* Labels ab dark grey dikhenge */
+        font-size: 16px !important;
+    }
+    .stMetric {
+        background-color: #ffffff !important; 
+        padding: 20px !important; 
+        border-radius: 12px !important; 
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+        border: 1px solid #e0e0e0 !important;
+    }
     </style>
     """, unsafe_allow_html=True)
 
