@@ -39,15 +39,13 @@ df = load_data()
 if df is not None:
     # --- Sidebar Summary ---
     st.sidebar.header("Audit Summary")
-    logo_url = "https://virtuefoundation.org/wp-content/uploads/2018/10/virtue-foundation-logo-1.png"
-    
-    # Image load karne ki koshish, agar fail hui toh text dikhayega
-    st.sidebar.markdown(f"""
-        <div style='text-align: center;'>
-            <img src='{logo_url}' width='180' onerror='this.style.display="none"'>
-            <h2 style='color: #1E88E5; margin-top: 0;'>VIRTUE AUDIT</h2>
-        </div>
-    """, unsafe_allow_html=True)
+    st.sidebar.markdown("""
+            <div style='text-align: center; padding: 10px; border-radius: 10px; background-color: #f0f2f6; margin-bottom: 20px;'>
+                <h1 style='font-size: 40px; margin: 0;'>🏥</h1>
+                <h2 style='color: #1E88E5; margin: 0; font-size: 20px;'>VIRTUE AUDIT</h2>
+                <p style='font-size: 12px; color: #666;'>AI Infrastructure Verifier</p>
+            </div>
+        """, unsafe_allow_html=True)
     
     st.sidebar.divider()
     st.sidebar.header("📊 Global Statistics")
