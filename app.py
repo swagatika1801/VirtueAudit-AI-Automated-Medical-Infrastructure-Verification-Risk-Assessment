@@ -57,7 +57,7 @@ if df is not None:
     c1, c2 = st.columns([1.5, 1])
     
     with c1:
-        st.subheader("🚩 Audit Results by Specialty")
+        st.subheader("Audit Results by Specialty")
         # Bar chart logic
         fig_bar = px.bar(df, x='specialty', color='is_suspicious', 
                          title="Risk Analysis per Category",
@@ -65,7 +65,7 @@ if df is not None:
         st.plotly_chart(fig_bar, use_container_width=True)
 
     with c2:
-        st.subheader("📊 Care Distribution")
+        st.subheader("Care Distribution")
         fig_pie = px.pie(df, names='specialty', hole=0.4, 
                          color_discrete_sequence=px.colors.qualitative.Pastel)
         st.plotly_chart(fig_pie, use_container_width=True)
