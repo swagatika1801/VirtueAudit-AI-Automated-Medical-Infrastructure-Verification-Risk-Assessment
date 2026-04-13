@@ -90,31 +90,31 @@ Both modes feed the same interactive **Streamlit dashboard**, deployed on Databr
 
 </div>
 
----
-## 📂 Project Structure
-
 ```
 ## 📂 Project Structure
 
+```text
+📦 VirtueAudit-AI/
+├── 🧠 Accenture_Databricks_Virtue_Agent.ipynb
+├── 🖥️  app.py
+├── 📥 Virtue Foundation Ghana v0.3 - Sheet1.csv
+├── 📤 Virtue_Final_Audit.csv
+├── 📋 requirements.txt
+├── ☁️  databricks_apps/
+│        ├── 📁 streamlit-hello-world-app/
+│        │        ├── 📤 Virtue_Final_Audit (1).csv
+│        │        ├── 🐍 app.py
+│        │        ├── ⚙️  app.yaml
+│        │        └── 📋 requirements.txt
+│        ├── 📄 .gitattributes
+│        ├── 📄 .gitignore
+│        ├── 📄 LICENSE
+│        ├── 📄 NOTICE
+│        └── 📄 README.md
+├── 🐳 .devcontainer/
+│        └── 📄 devcontainer.json
+└── 📝 Drafts/
 ```
-VirtueAudit-AI/
-├── .devcontainer/
-├── Drafts/
-├── databricks_apps/
-│   └── virtue-audit-da.../
-│       └── streamlit-hello-world-app/
-├── .gitattributes
-├── .gitignore
-├── LICENSE
-├── NOTICE
-├── Accenture_Databricks_Virtue_Agent.ipynb
-├── README.md
-├── Virtue Foundation Ghana v0.3 - Sheet1.csv
-├── Virtue_Final_Audit.csv
-├── app.py
-└── requirements.txt
-```
-
 
 | File | Description |
 |---|---|
