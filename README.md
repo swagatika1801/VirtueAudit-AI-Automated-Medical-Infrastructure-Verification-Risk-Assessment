@@ -1,7 +1,5 @@
 <div align="center">
 
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF3621&height=180&section=header&text=VirtueAudit&fontSize=72&fontColor=fff&animation=fadeIn&fontAlignY=45" width="100%"/>
 
 # 🤖 VirtueAudit: AI-Automated Medical Infrastructure Verification & Risk Assessment
@@ -108,17 +106,6 @@ Both modes feed the same interactive **Streamlit dashboard**, deployed on Databr
 │   └── devcontainer.json
 └── 📝 Drafts/
 ```
-
-| File | Description |
-|---|---|
-| `Accenture_Databricks_Virtue_Agent.ipynb` | Core AI pipeline — LLaMA 3.1 via Groq, Apache Spark + Pandas fallback |
-| `app.py` | Streamlit dashboard — KPI metrics, Plotly charts, per-facility case view |
-| `Virtue Foundation Ghana v0.3 - Sheet1.csv` | **INPUT** — Raw unstructured facility data |
-| `Virtue_Final_Audit.csv` | **OUTPUT** — Pandas → local root · Spark → Databricks DBFS |
-| `requirements.txt` | Python dependencies |
-| `databricks_apps/app.yaml` | Databricks Apps deployment config |
-| `.devcontainer/devcontainer.json` | One-click VS Code dev environment |
-| `Drafts/` | Work-in-progress and scratch files |
 ---
 
 ## 📥 Dataset & Output Files
