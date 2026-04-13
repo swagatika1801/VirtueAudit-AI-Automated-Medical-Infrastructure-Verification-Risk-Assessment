@@ -93,25 +93,17 @@ Both modes feed the same interactive **Streamlit dashboard**, deployed on Databr
 ---
 ## 📂 Project Structure
 
-```text
-📦 VirtueAudit-AI
-│
-├── 🧠 Accenture_Databricks_Virtue_Agent.ipynb
-│        ├── LLaMA 3.1 extraction via Groq
-│        ├── Apache Spark (Databricks)
-│        └── Pandas fallback (local)
-│
+```
+📦 VirtueAudit-AI/
+├── 📓 Accenture_Databricks_Virtue_Agent.ipynb
 ├── 🖥️  app.py
-│        ├── KPI metrics & Plotly charts
-│        ├── Searchable data explorer
-│        └── Per-facility case detail view
-│
-├── 📥 Virtue Foundation Ghana v0.3 - Sheet1.csv   # INPUT  · Raw unstructured facility data
-├── 📤 Virtue_Final_Audit.csv                      # OUTPUT · Pandas → local root
-│                                                  #         · Spark  → Databricks DBFS
+├── 📥 Virtue Foundation Ghana v0.3 - Sheet1.csv
+├── 📤 Virtue_Final_Audit.csv
 ├── 📋 requirements.txt
 ├── ☁️  databricks_apps/
+│   └── app.yaml
 ├── 🐳 .devcontainer/
+│   └── devcontainer.json
 └── 📝 Drafts/
 ```
 ---
